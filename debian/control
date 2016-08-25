@@ -2,12 +2,18 @@ Source: plasma-widget-radiotray
 Section: unknown
 Priority: optional
 Maintainer: Rohan Garg <rohan@kde.org>
-Build-Depends: debhelper (>=9), extra-cmake-modules,qtbase5-dev, qtdeclarative5-dev, plasma-framework-dev, libvlccore-dev
+Build-Depends: cmake,
+               debhelper (>=9),
+               extra-cmake-modules,
+               libvlccore-dev,
+               plasma-framework-dev,
+               qtbase5-dev,
+               qtdeclarative5-dev
 Standards-Version: 3.9.8
 Homepage: https://github.com/plasma-extensions/plasma-widget-radiotray
 
 Package: plasma-widget-radiotray
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: radiotray plasma widget for Plasma 5
  This package contains the files for plasma-widget-radiotray
