@@ -7,7 +7,7 @@ Build-Depends: cmake,
                extra-cmake-modules,
                libvlc-dev,
                libvlccore-dev,
-               plasma-framework-dev,
+               libkf5plasma-dev,
                qtbase5-dev,
                qtdeclarative5-dev
 Standards-Version: 3.9.8
